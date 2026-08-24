@@ -1,0 +1,9 @@
+{
+  "library_kind": "users",
+  "library_id": "0",
+  "initial_sync": "new_only",
+  "output_language": "zh-CN",
+  "max_fulltext_chars": 300000,
+  "ignore_tags": ["no-ai", "codex-ignore"],
+  "watched_collections": []
+}

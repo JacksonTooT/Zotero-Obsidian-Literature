@@ -1,0 +1,48 @@
+filters:
+  and:
+    - 'file.inFolder("Zotero/Papers")'
+    - 'file.ext == "md"'
+properties:
+  file.name:
+    displayName: "文献笔记"
+  title:
+    displayName: "Title"
+  publication_year:
+    displayName: "发表年份"
+  authors:
+    displayName: "Author"
+  keywords:
+    displayName: "Keywords"
+  zotero_collections:
+    displayName: "Zotero分类"
+  scientific_question:
+    displayName: "科学问题"
+  datasets:
+    displayName: "Dataset"
+  methods:
+    displayName: "Methods"
+  main_findings:
+    displayName: "主要结论"
+  scientific_problem_solved:
+    displayName: "解决的问题"
+  summary_basis:
+    displayName: "总结依据"
+  last_synced:
+    displayName: "同步时间"
+views:
+  - type: table
+    name: "文献总表"
+    order:
+      - file.name
+      - title
+      - publication_year
+      - authors
+      - keywords
+      - zotero_collections
+      - scientific_question
+      - datasets
+      - methods
+      - main_findings
+      - scientific_problem_solved
+      - summary_basis
+      - last_synced
